@@ -20,8 +20,7 @@
     <summary>JetBrains ReSharper Ultimate Full Install</summary>
     <description>
 This package installs all the .NET components of JetBrains ReSharper Ultimate in one pass. 
-It is a faster, more efficient alternative to running `choco install resharper dottrace dotmemory dotcover dotpeek` 
-as the latter will run the JetBrains installer 5 times (once for each application)
+It is a faster, more efficient alternative to running `choco install resharper dottrace dotmemory dotcover dotpeek` as the latter will run the JetBrains installer 5 times (once for each application)
 
 If you just want to install specific JetBrains applications then consider using one or more of the other individual Chocolatey packages:
 
@@ -31,8 +30,7 @@ If you just want to install specific JetBrains applications then consider using 
 - [dotPeek](https://chocolatey.org/packages/dotPeek)
 - [dotTrace](https://chocolatey.org/packages/dotTrace)
 	</description>
-    <releaseNotes>Initial release. Note that TeamCity Agent and ReSharper C++ are not selected to install. If you'd like support for this please leave a comment 
-	for the package maintainer.</releaseNotes>
+    <releaseNotes>Initial release. Note that TeamCity Agent and ReSharper C++ are not selected to install. If you'd like support for this please leave a comment in the package discussion section on chocolatey.org</releaseNotes>
     <dependencies>
       <dependency id="resharper-platform" version="[108.0.20170428.83814]" />
     </dependencies>
