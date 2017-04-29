@@ -4,7 +4,7 @@
   <metadata>
     <id>resharper-ultimate-all</id>
     <version>2017.1.2.0</version>
-    <!-- <packageSourceUrl>Where is this Chocolatey package located (think GitHub)? packageSourceUrl is highly recommended for the community feed</packageSourceUrl>-->
+    <packageSourceUrl>https://github.com/flcdrg/chocolatey-resharper-ultimate-all</packageSourceUrl>
     <owners>flcdrg</owners>
     <title>ReSharper Ultimate All</title>
     <authors>JetBrains</authors>
@@ -16,22 +16,20 @@
     <docsUrl>http://www.jetbrains.com/resharper/documentation/</docsUrl>
     <mailingListUrl>https://resharper-support.jetbrains.com/hc/en-us/community/topics</mailingListUrl>
     <bugTrackerUrl>https://youtrack.jetbrains.com/issues/RSRP</bugTrackerUrl>
-    <tags>ReSharper JetBrains admin</tags>
+    <tags>ReSharper JetBrains dotCover dotMemory dotPeek dotTrace Ultimate admin</tags>
     <summary>JetBrains ReSharper Ultimate Full Install</summary>
     <description>
 This package installs all the .NET components of JetBrains ReSharper Ultimate in one pass. 
 It is a faster, more efficient alternative to running `choco install resharper dottrace dotmemory dotcover dotpeek` 
 as the latter will run the JetBrains installer 5 times (once for each application)
 
-To install specific JetBrains applications then instead of this use one more more of the other Chocolatey packages:
+If you just want to install specific JetBrains applications then consider using one or more of the other individual Chocolatey packages:
 
 - [ReSharper](https://chocolatey.org/packages/resharper)
 - [dotCover](https://chocolatey.org/packages/dotCover)
 - [dotMemory](https://chocolatey.org/packages/dotMemory)
 - [dotPeek](https://chocolatey.org/packages/dotPeek)
 - [dotTrace](https://chocolatey.org/packages/dotTrace)
-
-
 	</description>
     <releaseNotes>Initial release. Note that TeamCity Agent and ReSharper C++ are not selected to install. If you'd like support for this please leave a comment 
 	for the package maintainer.</releaseNotes>
