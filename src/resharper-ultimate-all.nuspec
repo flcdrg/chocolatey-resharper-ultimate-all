@@ -6,7 +6,7 @@
     <version>2017.1.2.0</version>
     <!-- <packageSourceUrl>Where is this Chocolatey package located (think GitHub)? packageSourceUrl is highly recommended for the community feed</packageSourceUrl>-->
     <owners>flcdrg</owners>
-    <title>resharper-ultimate-all (Install)</title>
+    <title>ReSharper Ultimate All</title>
     <authors>JetBrains</authors>
     <projectUrl>http://www.jetbrains.com/dotnet/</projectUrl>
     <iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/resharper-ultimate-all.png</iconUrl>
@@ -19,19 +19,18 @@
     <tags>ReSharper JetBrains admin</tags>
     <summary>JetBrains ReSharper Ultimate Full Install</summary>
     <description>
-	ReSharper Ultimate is a license that combines all individual JetBrains .NET tools, as well as ReSharper C++. Each ReSharper Ultimate license allows a single developer to use ReSharper, ReSharper C++, dotCover, dotTrace and dotMemory.
-	
-	This package installs all the components of ReSharper Ultimate at once.
-	
-	It is a faster, more efficient alternative to running `choco install resharper dottrace dotmemory dotcover dotpeek`
-	
-	If you want to just install a specific component, then use one or more of the other existing Chocolatey packages:
-	
-	- [ReSharper](https://chocolatey.org/packages/resharper)
-	- [dotCover](https://chocolatey.org/packages/dotCover)
-	- [dotMemory](https://chocolatey.org/packages/dotMemory)
-	- [dotPeek](https://chocolatey.org/packages/dotPeek)
-	- [dotTrace](https://chocolatey.org/packages/dotTrace)
+ReSharper Ultimate is a license that combines all individual JetBrains .NET tools, as well as ReSharper C++. Each ReSharper Ultimate license allows a single developer to use ReSharper, ReSharper C++, dotCover, dotTrace and dotMemory.
+
+This package installs all the .NET components of ReSharper Ultimate at once. It is a faster, more efficient alternative to running `choco install resharper dottrace dotmemory dotcover dotpeek` as rather than re-running the JetBrains installer for each application,
+it runs it once.
+
+If you want to just install a specific application, then use one or more of the other existing Chocolatey packages:
+
+- [ReSharper](https://chocolatey.org/packages/resharper)
+- [dotCover](https://chocolatey.org/packages/dotCover)
+- [dotMemory](https://chocolatey.org/packages/dotMemory)
+- [dotPeek](https://chocolatey.org/packages/dotPeek)
+- [dotTrace](https://chocolatey.org/packages/dotTrace)
 	
 	</description>
     <releaseNotes>Initial release</releaseNotes>
