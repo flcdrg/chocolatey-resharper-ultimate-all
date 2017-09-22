@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>resharper-ultimate-all</id>
-    <version>2017.1.3</version>
+    <version>2017.2.1</version>
     <packageSourceUrl>https://github.com/flcdrg/chocolatey-resharper-ultimate-all</packageSourceUrl>
     <owners>flcdrg</owners>
     <title>ReSharper Ultimate All</title>
@@ -29,14 +29,22 @@ If you just want to install specific JetBrains applications then consider using 
 - [dotMemory](https://chocolatey.org/packages/dotMemory)
 - [dotPeek](https://chocolatey.org/packages/dotPeek)
 - [dotTrace](https://chocolatey.org/packages/dotTrace)
+
+### Package Specific
+
+#### Package Parameters
+The following package parameters can be set:
+
+ * `/PerMachine` - install machine-wide (instead of per-user)
+
+These parameters can be passed to the installer with the use of `--params`.
+For example: `--params "'/PerMachine'"`.
 	</description>
-    <releaseNotes>Looks like that the latest Visual Studio 2017 Preview (15.3) has changed its internal versioning, which affected stable Visual Studio versions installed on the same machine, which ReSharper had no way of being aware of. With this ReSharper update, the problem should be gone.</releaseNotes>
+    <releaseNotes>https://www.jetbrains.com/resharper/whatsnew/#v2017-2</releaseNotes>
     <dependencies>
-      <dependency id="resharper-platform" version="[108.0.20170613.162720]" />
+      <dependency id="resharper-platform" version="[109.0.20170921.82506]" />
+      <dependency id="chocolatey-core.extension" version="1.3.1" />
     </dependencies>
-    <!-- chocolatey-core.extension - https://chocolatey.org/packages/chocolatey-core.extension
-         - You want to use Get-PackageParameters and on less than 0.11.0
-    -->
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
