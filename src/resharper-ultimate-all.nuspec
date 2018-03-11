@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>resharper-ultimate-all</id>
-    <version>2017.3.2</version>
+    <version>2017.3.3</version>
     <packageSourceUrl>https://github.com/flcdrg/chocolatey-resharper-ultimate-all</packageSourceUrl>
     <owners>flcdrg</owners>
     <title>ReSharper Ultimate All</title>
@@ -42,7 +42,7 @@ For example: `--params "'/PerMachine'"`.
 	</description>
     <releaseNotes>https://www.jetbrains.com/resharper/whatsnew</releaseNotes>
     <dependencies>
-      <dependency id="resharper-platform" version="[111.0.20180201.115007]" />
+      <dependency id="resharper-platform" version="[111.0.20180302.74220]" />
       <dependency id="chocolatey-core.extension" version="1.3.1" />
     </dependencies>
   </metadata>
